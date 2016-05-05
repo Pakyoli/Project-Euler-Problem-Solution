@@ -15,7 +15,7 @@ public class ProjEuler {
         
 //        new Problem1();
 //        new Problem2();
-//        new Problem3();
+        new Problem3();
 //        new Problem5();
 //        new Problem6();
 //        new Problem7(10001);

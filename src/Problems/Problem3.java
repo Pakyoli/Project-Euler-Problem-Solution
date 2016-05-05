@@ -6,12 +6,18 @@ import java.math.BigInteger;
 
 public class Problem3 {
 
-    private final BigInteger n = new BigInteger("600851475143");
+    private final double n = 600851475143.0;
     public Problem3() {
-//      
-        
-        
-        
+        int x = (int)Math.sqrt(n);
+
+        while(x>0){
+            if(n%x==0){
+                if(isPrime(x)){
+                    System.out.println(x);
+                }
+            }
+            x--;
+        }
 //        BigInteger i = n, z = BigInteger.ZERO;
 //        while(i.compareTo(z)>0){
 //            if(n.mod(i).equals(BigInteger.ZERO)){
@@ -36,6 +42,15 @@ public class Problem3 {
 //            j.add(BigInteger.ONE);
 //        }
 //        return true;
+    }
+
+    private boolean isPrime(int x) {
+        double i = 2;
+        while (i<x){
+            if(x%i==0)return false;
+            i++;
+        }
+        return true;
     }
 
    
