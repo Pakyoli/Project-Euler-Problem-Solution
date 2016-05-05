@@ -1,4 +1,4 @@
-# ProjectEulerProblemSolution
+# Project-Euler Problem Solution
 ### My solution of some Project Euler problems <br>
 1. [Problem 1: Multiples of 3 and 5](ProjectEulerProblemSolution/src/Problems/Problem1.java) <br> Find the sum of all the multiples of 3 or 5 below 1000.
 2. [Problem 2: Even Fibonacci numbers](ProjectEulerProblemSolution/src/Problems/Problem2.java) <br> By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
