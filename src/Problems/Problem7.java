@@ -18,7 +18,7 @@ public class Problem7 {
     }
     
      private boolean isPrime(int j) {
-        for(int i=2; i<j/2+1; i++){
+        for(int i=2; i<=Math.sqrt(j); i++){
             if(j%i==0) return false;
         }
         return true;
