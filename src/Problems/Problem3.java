@@ -45,7 +45,7 @@ public class Problem3 {
     }
 
     private boolean isPrime(int x) {
-        double i = 2;
+        int i = 2;
         while (i<x){
             if(x%i==0)return false;
             i++;
