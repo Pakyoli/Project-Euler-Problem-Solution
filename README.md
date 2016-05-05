@@ -1,6 +1,6 @@
 # Project-Euler Problem Solution
 ### My solution of some Project Euler problems <br>
-1. [Problem 1: Multiples of 3 and 5](Project-Euler-Problem-Solution/src/Problems) <br> Find the sum of all the multiples of 3 or 5 below 1000.
+1. [Problem 1: Multiples of 3 and 5](https://github.com/Pakyoli/Project-Euler-Problem-Solution/blob/master/src/Problems/Problem1.java) <br> Find the sum of all the multiples of 3 or 5 below 1000.
 2. [Problem 2: Even Fibonacci numbers](Project-Euler-Problem-Solution/src/Problems/Problem2.java) <br> By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 3. [Problem 3: Largest prime factor](Project-Euler-Problem-Solution/src/Problems/Problem3.java) <br> What is the largest prime factor of the number 600851475143 ? <br> 
 4. [Problem 5: Smallest multiple](Project-Euler-Problem-Solution/src/Problems/Problem5.java) <br>What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
